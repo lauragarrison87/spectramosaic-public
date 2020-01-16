@@ -1,0 +1,140 @@
+body {
+    padding: 10;
+    margin: 10;
+    background-color: rgb(255, 255, 255);
+    color: dimgray;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: move;
+}
+
+.head {
+    font: arial;
+    font-style: bold;
+    font-size: 25px;
+    height: 50px;
+}
+
+.legend-text {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.legend-text2 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.legend-img {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.over {
+    border: 2px dashed #000000;
+    height: 80%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.hidden-div {
+    display: none;
+}
+
+.show-border {
+    border: 1px solid;
+	border-color: #c8c8c8;
+	border-radius: 10px;
+}
+
+.dropdown-menu-button {
+    min-width: 70%;
+}
+
+.metabolite-item {
+    font-size: 11;
+    padding: 2;
+}
+
+.groups-table-col {
+    width: 12%;
+}
+
+.table-highlighted {
+    /* background-color: lightgreen; */
+    background-color: rgb(243, 158, 243);
+}
+
+#right_data_table {
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 100%;
+}
+
+#group-data-table {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#edit-dropdown-menu {
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+#app-header {
+    position: relative;
+    margin-top: -2%;
+    margin-bottom: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+#app-header-content {
+    padding: 2% 1% 1% 1%;
+    position: relative;
+    color: black;
+}
+
+#help-text-link {
+    clear: right;
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    font-size: 0.75em;
+    font-style: italic;
+    color: #000000;
+}
+
+#viewL-select {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.voxel-select-btn {
+    font-size: 15;
+    border-radius: 40%;
+}
