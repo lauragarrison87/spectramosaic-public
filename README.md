@@ -1,6 +1,6 @@
 # SpectraMosaic Analysis Tool
 SpectraMosaic is an exploratory tool developed for the interactive visual analysis of magnetic resonance spectroscopy (MRS) data.
-![SpectraMosaic App screenshot](img/giardia-naa-ala.png)
+![SpectraMosaic App screenshot](img/overview-labels-dropA.png)
 
 ## Upstream processing steps for analysis
 To use this application, you need to have performed a number of preprocessing steps with the initial spectral acquisition. This tool is downstream of the spectral voxel registration and model fitting steps. This has been developed to pair with output from GE MR scanners, but can be extended to work with others, such as Siemens. 
