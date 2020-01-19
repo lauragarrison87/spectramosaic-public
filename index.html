@@ -28,7 +28,7 @@
     <div id="app-header">
         <div id="app-header-content">
             <h3>SpectraMosaic</h3>
-            <div id="help-text-link"><a href="help.html">SpectraMosaic starter guide</a></div>
+            <!-- <div id="help-text-link"><a href="help.html">SpectraMosaic starter guide</a></div> -->
         </div>
     </div>
 
@@ -65,7 +65,7 @@
                     <div id="viewL"></div>
 
                     <!-- Voxel Group Overview Panel stuff -->
-                    <div class="col hidden-div show-border" id="viewL-select">       
+                    <div class="col hidden-div show-border" id="viewL-select">
                         <br>
                         <div class="col">
                             <div class="row">
@@ -79,7 +79,7 @@
                                     <br>
                                     <!-- Click on dropdown menu button to choose existing custom group to edit membership of in custom voxel table @JAKUB HELP -->
                                     <div class="dropdown">
-                                        <button type="button" class="btn btn-secondary btn-sm dropdown-toggle dropdown-menu-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="btn-group-edit"><i class="fa fa-pencil"></i> Edit Custom Group</button> 
+                                        <button type="button" class="btn btn-secondary btn-sm dropdown-toggle dropdown-menu-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="btn-group-edit"><i class="fa fa-pencil"></i> Edit Custom Group</button>
                                         <ul class="dropdown-menu" id="edit-dropdown-menu">
 
                                         </ul>
@@ -100,12 +100,14 @@
                                 </div>
                                 <div class="col hidden-div" id="voxels-empty">
                                     <br>
-                                    <p class="p-group-name"></p> <!-- edited dynamically in spatial_view.js -->
+                                    <p class="p-group-name"></p>
+                                    <!-- edited dynamically in spatial_view.js -->
                                     <p>No voxels available</p>
                                 </div>
                                 <div class="col hidden-div scroll-area" id="div-group-data-table">
                                     <br>
-                                    <p class="p-group-name"></p> <!-- edited dynamically in spatial_view.js -->
+                                    <p class="p-group-name"></p>
+                                    <!-- edited dynamically in spatial_view.js -->
                                     <table id="group-data-table">
                                         <!-- rows dynamically added to this table, see updateSelectionPanel() in spatial_view.js -->
                                         <tr id="table-head">
@@ -120,7 +122,7 @@
                                     </table>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -165,7 +167,7 @@
             <li data-row="2" data-col="30" data-sizex="2" data-sizey="13" id="legend">
                 <div class="row justify-content-center" style="margin-top:3%">
                     <div class="col-3">Ratio Value</div>
-                    <div class="col-9">Icons</div> 
+                    <div class="col-9">Icons</div>
                 </div>
 
                 <div class="row justify-content-center">
